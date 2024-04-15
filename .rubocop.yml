@@ -1,0 +1,15 @@
+inherit_gem:
+  rubocop-rails-omakase: rubocop.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-rspec_rails
+  - rubocop-rake
+  - rubocop-thread_safety
+  - rubocop-factory_bot
